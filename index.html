@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ЖЁСТКИЙ — каталог 18+ без тормозов</title>
+<meta name="description" content="Жёсткий каталог 18+: грубый секс, доминация, групповуха и BDSM. Только для взрослых.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23d3202f'/%3E%3Ctext x='32' y='44' font-family='Arial' font-size='34' font-weight='bold' fill='%23fff' text-anchor='middle'%3E%D0%96%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a0a0c;
+  --bg2:#101014;
+  --card:#131318;
+  --line:#232329;
+  --text:#e8e6e3;
+  --muted:#9b9894;
+  --red:#d3202f;
+  --red-dark:#7a0d16;
+  --red-deep:#4a070d;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--bg);color:var(--text);font-family:'Inter',Arial,sans-serif;line-height:1.65;overflow-x:hidden}
+body.no-scroll{overflow:hidden;height:100vh}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(1100px 560px at 72% -8%,rgba(211,32,47,.13),transparent 62%),
+             radial-gradient(900px 500px at -10% 40%,rgba(122,13,22,.1),transparent 60%)}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--red);color:#fff}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* ---------- header ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(10,10,12,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:72px}
+.logo{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.5rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+.logo span{color:var(--red)}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{font-family:'Oswald',sans-serif;font-weight:500;font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent;transition:.2s}
+.nav a:hover{color:#fff;border-color:var(--red)}
+.header-cta{display:inline-flex}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{width:26px;height:3px;background:var(--text);border-radius:2px;transition:.2s}
+.site-header.nav-open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.site-header.nav-open .burger span:nth-child(2){opacity:0}
+.site-header.nav-open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:'Oswald',sans-serif;font-weight:600;font-size:.95rem;letter-spacing:.12em;text-transform:uppercase;padding:15px 30px;border-radius:4px;border:1px solid transparent;cursor:pointer;text-decoration:none;transition:.2s}
+.btn-red{background:linear-gradient(135deg,#e32435,#8f101c);color:#fff;box-shadow:0 10px 30px rgba(211,32,47,.35)}
+.btn-red:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(211,32,47,.45)}
+.btn-ghost{border-color:var(--line);color:var(--text);background:transparent}
+.btn-ghost:hover{border-color:var(--red);color:#fff;transform:translateY(-2px)}
+.btn-white{background:#fff;color:#8f101c}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(0,0,0,.35)}
+.btn-sm{padding:10px 22px;font-size:.85rem}
+.btn-block{width:100%;margin-top:10px}
+
+/* ---------- hero ---------- */
+.hero{padding:clamp(80px,13vh,150px) 0 90px}
+.badge{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(211,32,47,.5);background:rgba(211,32,47,.08);color:#ff8d98;font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:8px 16px;border-radius:999px;margin-bottom:28px}
+.badge::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 12px var(--red)}
+.hero h1{font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(2.9rem,9vw,6.4rem);line-height:.95;letter-spacing:.01em;margin-bottom:26px}
+.hero h1 em{font-style:normal;color:var(--red);text-shadow:0 0 40px rgba(211,32,47,.45)}
+.hero .lead{max-width:640px;color:var(--muted);font-size:clamp(1.02rem,1.5vw,1.18rem);margin-bottom:38px}
+.hero .lead b{color:var(--text);font-weight:600}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:22px}
+.hero-note{font-size:.82rem;color:#6f6c68}
+
+/* ---------- stats ---------- */
+.stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg2);display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:26px 10px;text-align:center;border-left:1px solid var(--line)}
+.stat:first-child{border-left:0}
+.stat b{display:block;font-family:'Oswald',sans-serif;font-weight:700;font-size:2rem;color:var(--red);letter-spacing:.04em}
+.stat span{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------- sections ---------- */
+section{padding:90px 0}
+.sec-head{margin-bottom:46px;max-width:720px}
+.sec-tag{display:inline-block;font-family:'Oswald',sans-serif;font-weight:600;font-size:.82rem;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:14px}
+.sec-tag::before{content:"// "}
+.sec-head h2{font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(1.9rem,4.5vw,3rem);line-height:1.05;margin-bottom:16px}
+.sec-head p{color:var(--muted)}
+
+/* ---------- categories ---------- */
+.cat-grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.cat{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:28px;transition:.25s}
+.cat::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),transparent);opacity:0;transition:.25s}
+.cat:hover{transform:translateY(-6px);border-color:rgba(211,32,47,.6);background:#17171d;box-shadow:0 18px 44px rgba(0,0,0,.55)}
+.cat:hover::before{opacity:1}
+.cat .num{font-family:'Oswald',sans-serif;font-weight:600;color:var(--red);font-size:.9rem;letter-spacing:.24em}
+.cat h3{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;font-size:1.35rem;letter-spacing:.03em;margin:12px 0 10px}
+.cat p{color:var(--muted);font-size:.95rem;margin-bottom:16px}
+.cat-link{font-family:'Oswald',sans-serif;font-weight:500;font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;color:#ff8d98;text-decoration:none}
+.cat-link:hover{color:#fff}
+.cat-link::after{content:" →";display:inline-block;transition:.2s}
+.cat-link:hover::after{transform:translateX(5px)}
+
+/* ---------- collections ---------- */
+.cards{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(255px,1fr))}
+.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;transition:.25s}
+.card:hover{transform:translateY(-6px);border-color:rgba(211,32,47,.6);box-shadow:0 18px 44px rgba(0,0,0,.55)}
+.thumb{position:relative;aspect-ratio:16/10;overflow:hidden}
+.t1{background:radial-gradient(circle at 25% 25%,rgba(211,32,47,.45),transparent 55%),radial-gradient(circle at 85% 80%,rgba(122,13,22,.5),transparent 50%),linear-gradient(160deg,#1b1416,#0b0b0e)}
+.t2{background:radial-gradient(circle at 75% 30%,rgba(211,32,47,.4),transparent 55%),linear-gradient(200deg,#201116,#0b0b0e)}
+.t3{background:radial-gradient(circle at 30% 75%,rgba(211,32,47,.42),transparent 55%),radial-gradient(circle at 80% 20%,rgba(74,7,13,.6),transparent 55%),linear-gradient(140deg,#181114,#0b0b0e)}
+.t4{background:radial-gradient(circle at 60% 40%,rgba(211,32,47,.5),transparent 60%),linear-gradient(180deg,#1d0f12,#0b0b0e)}
+.thumb::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.025) 0 2px,transparent 2px 7px);pointer-events:none}
+.play{position:absolute;inset:0;margin:auto;width:64px;height:64px;border-radius:50%;background:rgba(8,8,10,.6);border:2px solid rgba(255,255,255,.72);display:grid;place-items:center;transition:.25s;backdrop-filter:blur(3px)}
+.tri{width:0;height:0;border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:5px}
+.card:hover .play{background:var(--red);border-color:var(--red);transform:scale(1.12)}
+.badge-tag{position:absolute;bottom:10px;left:10px;background:rgba(211,32,47,.85);color:#fff;font-family:'Oswald',sans-serif;font-weight:600;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;padding:5px 10px;border-radius:4px}
+.badge-dur{position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,.78);color:#fff;font-family:'Oswald',sans-serif;font-weight:500;font-size:.82rem;letter-spacing:.06em;padding:5px 10px;border-radius:4px}
+.card-body{padding:18px 20px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-body .meta{font-family:'Oswald',sans-serif;font-weight:500;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.card-body h3{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;font-size:1.15rem;letter-spacing:.02em}
+.card-body p{color:var(--muted);font-size:.92rem}
+
+/* ---------- texts ---------- */
+.notes{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.note{background:linear-gradient(180deg,#141419,#101014);border:1px solid var(--line);border-left:3px solid var(--red);border-radius:8px;padding:30px 28px;transition:.25s}
+.note:hover{transform:translateY(-5px);border-color:rgba(211,32,47,.55);border-left-color:var(--red);box-shadow:0 16px 40px rgba(0,0,0,.5)}
+.note .tag{font-family:'Oswald',sans-serif;font-weight:600;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--red)}
+.note h3{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;font-size:1.2rem;margin:10px 0 14px}
+.note p{color:#cfccc7;font-size:.95rem}
+
+/* ---------- cta ---------- */
+.cta-box{position:relative;overflow:hidden;background:linear-gradient(135deg,#a3151f,#4a070d);border-radius:14px;padding:clamp(50px,8vw,90px) 30px;text-align:center;box-shadow:0 30px 80px rgba(163,21,31,.25)}
+.cta-box::before{content:"";position:absolute;width:440px;height:440px;border-radius:50%;background:rgba(255,255,255,.09);filter:blur(100px);top:-160px;right:-90px}
+.cta-box h2{position:relative;font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(2rem,5.5vw,3.6rem);line-height:1.05;color:#fff;margin-bottom:18px}
+.cta-box p{position:relative;color:rgba(255,255,255,.85);max-width:560px;margin:0 auto 34px}
+.cta-note{display:block;position:relative;margin-top:18px;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+
+/* ---------- footer ---------- */
+.site-footer{border-top:1px solid var(--line);padding:44px 0 56px;background:var(--bg2)}
+.foot-top{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.foot-top p{color:var(--muted);font-size:.9rem}
+.age-mark{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:.12em;color:var(--red);border:2px solid var(--red);border-radius:6px;padding:8px 14px}
+.foot-bottom{margin-top:28px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;color:#6f6c68;font-size:.8rem}
+
+/* ---------- video modal ---------- */
+.thumb{cursor:pointer}
+.modal{position:fixed;inset:0;z-index:150;display:grid;place-items:center;padding:20px}
+.modal[hidden]{display:none}
+.modal-backdrop{position:absolute;inset:0;background:rgba(5,5,6,.92);backdrop-filter:blur(10px)}
+.modal-box{position:relative;width:min(960px,100%);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:0 30px 90px rgba(0,0,0,.8)}
+.modal-close{position:absolute;top:-14px;right:-14px;width:38px;height:38px;border-radius:50%;background:var(--red);color:#fff;border:0;font-size:1rem;cursor:pointer;line-height:1;box-shadow:0 8px 24px rgba(211,32,47,.4);transition:.2s}
+.modal-close:hover{transform:scale(1.08)}
+.modal-player{position:relative;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden}
+.modal-player iframe,.modal-player video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.modal-hint{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:24px;color:var(--muted);font-size:.95rem;line-height:1.7}
+.modal-hint b{color:var(--text)}
+
+/* ---------- age gate ---------- */
+.gate{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:20px;background:rgba(5,5,6,.93);backdrop-filter:blur(14px)}
+.gate.hidden{display:none}
+.gate-box{max-width:440px;width:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:42px 34px;text-align:center;box-shadow:0 30px 90px rgba(0,0,0,.75)}
+.gate .age{font-family:'Oswald',sans-serif;font-weight:700;font-size:3.4rem;letter-spacing:.1em;color:var(--red);text-shadow:0 0 40px rgba(211,32,47,.5)}
+.gate h2{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;font-size:1.4rem;letter-spacing:.06em;margin:8px 0 12px}
+.gate p{color:var(--muted);font-size:.92rem;margin-bottom:18px}
+
+/* ---------- responsive ---------- */
+@media (max-width:860px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(odd){border-left:0}
+  .stat{border-top:1px solid var(--line)}
+  .stat:nth-child(-n+2){border-top:0}
+}
+@media (max-width:760px){
+  .burger{display:flex}
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;background:var(--bg2);border-bottom:1px solid var(--line);padding:14px 20px 22px}
+  .nav a{padding:10px 0;border-bottom:1px solid var(--line)}
+  .nav .header-cta{margin-top:12px}
+  .site-header.nav-open .nav{display:flex}
+  section{padding:66px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body class="no-scroll">
+
+<!-- age gate -->
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-label="Проверка возраста">
+  <div class="gate-box" id="gateBox">
+    <div class="age">18+</div>
+    <h2>Только для взрослых</h2>
+    <p>Материалы сайта жёсткие и откровенные. Вход разрешён только совершеннолетним. Тебе есть 18?</p>
+    <button class="btn btn-red btn-block" id="btnYes" type="button">Да, мне 18+ — впустить</button>
+    <button class="btn btn-ghost btn-block" id="btnNo" type="button">Мне меньше 18</button>
+  </div>
+</div>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="#top">ЖЁСТКИЙ<span>.</span></a>
+    <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#categories">Категории</a>
+      <a href="#collections">Подборки</a>
+      <a href="#texts">Тексты</a>
+      <span class="header-cta"><a class="btn btn-red btn-sm" href="#cta">Войти</a></span>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- hero -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="badge">Только для взрослых · 18+</span>
+      <h1>Тяжело.<br><em>Грубо.</em><br>Без тормозов.</h1>
+      <p class="lead">Видео, которые не начинается с комплиментов. <b>Жёсткая подача, доминация, приказы</b> и ноль соплей — для тех, кто точно знает, зачем пришёл, и не любит, когда тянут время.</p>
+      <div class="hero-actions">
+        <a class="btn btn-red" href="#collections">Смотреть подборки</a>
+        <a class="btn btn-ghost" href="#categories">Все категории</a>
+      </div>
+      <p class="hero-note">Нажимая кнопку, подтверждаешь, что тебе 18+ и ты сам себе хозяин.</p>
+    </div>
+  </section>
+
+  <!-- stats -->
+  <div class="stats" aria-label="Статистика каталога">
+    <div class="stat"><b>1240+</b><span>роликов</span></div>
+    <div class="stat"><b>36</b><span>категорий</span></div>
+    <div class="stat"><b>24/7</b><span>обновления</span></div>
+    <div class="stat"><b>0%</b><span>прелюдий</span></div>
+  </div>
+
+  <!-- categories -->
+  <section id="categories">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">Каталог</span>
+        <h2>Категории, где <em style="font-style:normal;color:var(--red)">не уговаривают</em></h2>
+        <p>Выбирай раздел под своё настроение. Мягкого здесь нет ни в одном — бери то, что выдержишь.</p>
+      </div>
+      <div class="cat-grid">
+        <article class="cat">
+          <span class="num">01</span>
+          <h3>Грубый секс</h3>
+          <p>Быстро, резко и на пределе. Здесь не просят — здесь выполняют. Раздел для тех, кто устал от нежности и лишних слов.</p>
+          <a class="cat-link" href="#cta">Открыть раздел</a>
+        </article>
+        <article class="cat">
+          <span class="num">02</span>
+          <h3>Доминация</h3>
+          <p>Один командует, второй подчиняется. Роли ясны, спор не предусмотрен, слово «нет» в этом разделе не водится.</p>
+          <a class="cat-link" href="#cta">Открыть раздел</a>
+        </article>
+        <article class="cat">
+          <span class="num">03</span>
+          <h3>Анальный</h3>
+          <p>Самый жёсткий раздел каталога. Без подготовительных сцен и вступлений — сразу к делу и на всю глубину темы.</p>
+          <a class="cat-link" href="#cta">Открыть раздел</a>
+        </article>
+        <article class="cat">
+          <span class="num">04</span>
+          <h3>Грязный talk</h3>
+          <p>Голоса, от которых першит в горле. Команды, обещания и формулировки, которые нельзя повторять на работе.</p>
+          <a class="cat-link" href="#cta">Открыть раздел</a>
+        </article>
+        <article class="cat">
+          <span class="num">05</span>
+          <h3>Групповуха</h3>
+          <p>Чем больше участников, тем меньше тормозов. Полный хаос по обоюдному согласию и потеря самоконтроля в первый час.</p>
+          <a class="cat-link" href="#cta">Открыть раздел</a>
+        </article>
+        <article class="cat">
+          <span class="num">06</span>
+          <h3>Жёсткий BDSM</h3>
+          <p>Верёвки, ремни и полная передача контроля. Границы согласованы заранее — дальше работают только приказы и выдержка.</p>
+          <a class="cat-link" href="#cta">Открыть раздел</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- collections -->
+  <section id="collections">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">Свежее</span>
+        <h2>Свежие подборки</h2>
+        <p>Новые сцены, добавленные на этой неделе. Смотрятся на одном дыхании и на очень ровном пульсе.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="thumb t1" data-key="v1" data-title="Суббота без слов" role="button" tabindex="0" aria-label="Смотреть: Суббота без слов">
+            <span class="play"><span class="tri"></span></span>
+            <span class="badge-tag">Грубый секс</span>
+            <span class="badge-dur">52 мин</span>
+          </div>
+          <div class="card-body">
+            <span class="meta">Новая · 4K</span>
+            <h3>Суббота без слов</h3>
+            <p>Он не произносит ни слова за весь ролик — только темп, хватка и взгляд. Ни одной паузы, ни одной жалобы, ни одного компромисса.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t2" data-key="v2" data-title="На колени" role="button" tabindex="0" aria-label="Смотреть: На колени">
+            <span class="play"><span class="tri"></span></span>
+            <span class="badge-tag">Доминация</span>
+            <span class="badge-dur">47 мин</span>
+          </div>
+          <div class="card-body">
+            <span class="meta">Топ недели · HD</span>
+            <h3>На колени</h3>
+            <p>Семь сцен, один командир и полное отсутствие демократии. Приказы отдаются шёпотом, а выполняются с первого раза и без вопросов.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t3" data-key="v3" data-title="Ночь, гостиница, чужие правила" role="button" tabindex="0" aria-label="Смотреть: Ночь, гостиница, чужие правила">
+            <span class="play"><span class="tri"></span></span>
+            <span class="badge-tag">Групповуха</span>
+            <span class="badge-dur">1 ч 08 мин</span>
+          </div>
+          <div class="card-body">
+            <span class="meta">Новая · FullHD</span>
+            <h3>Ночь, гостиница, чужие правила</h3>
+            <p>Компания, съехавшаяся на одни выходные, и правила, которые меняются ровно в полночь. Дальше — как получится и кто выдержит.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t4" data-key="v4" data-title="Красная комната" role="button" tabindex="0" aria-label="Смотреть: Красная комната">
+            <span class="play"><span class="tri"></span></span>
+            <span class="badge-tag">Жёсткий BDSM</span>
+            <span class="badge-dur">39 мин</span>
+          </div>
+          <div class="card-body">
+            <span class="meta">Эксклюзив · 4K</span>
+            <h3>Красная комната</h3>
+            <p>Закрытая дверь, согласованные границы и шесть часов, после которых по своей квартире ходишь совсем другим человеком.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- texts -->
+  <section id="texts">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">На ощупь</span>
+        <h2>Грязные тексты</h2>
+        <p>Короткие сцены для тех, кто сначала читает, а потом пересматривает. Без прикрас и без тормозов.</p>
+      </div>
+      <div class="notes">
+        <article class="note">
+          <span class="tag">Текст 01 · доминация</span>
+          <h3>Четыре команды</h3>
+          <p>Дверь закрылась — и весь вечер уложился в четыре команды. Он не уговаривал и не спрашивал: «Сюда», «На колени», «Руки за спину», «Не шевелись». Голос у него был ровный, почти скучающий, и именно от этого по спине шёл холод. Она могла бы спорить — не спорила, потому что спор здесь не был предусмотрен протоколом. Когда всё закончилось, он позволил себе улыбнуться: «Неплохо для первого раза». «Отлично для любого раза», — поправила она.</p>
+        </article>
+        <article class="note">
+          <span class="tag">Текст 02 · контроль</span>
+          <h3>Тише</h3>
+          <p>Она в жизни говорила слишком много, и он решил это исправить одним словом. «Тише» — сказанное вплотную к уху — подействовало сильнее любого крика. Дальше общение шло по другой линии: взгляд — приказ, пауза — согласие, сжатые зубы — протест, который никого не интересовал. Он двигался неторопливо, как человек, который точно знает, что время сегодня работает на него. Она сдалась ровно на середине вечера и уже не делала попыток вернуть контроль. Уходя, сказала только: «В следующий раз — без уговоров». Он и в этот не уговаривал.</p>
+        </article>
+        <article class="note">
+          <span class="tag">Текст 03 · роли</span>
+          <h3>Правила на шесть часов</h3>
+          <p>Правила ему выдали заранее, распечатанные на бумаге: без слов, без остановок, без выхода из роли до полуночи. Он подписал не читая — читал он глазами, а соглашался чем-то другим. Кожаный браслет на запястье щёлкнул, и с этим щелчком кончилась та версия вечера, где он был сам себе хозяин. Её команды были короткими и шли без пояснений, как сводка с фронта. К полуночи он был выжат, доволен и начисто лишён гордости — ровно как договаривались. «Оценка за послушание — четыре», — сказала она. «Пересдача в пятницу», — ответил он. Он это уже знал.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- cta -->
+  <section id="cta">
+    <div class="wrap">
+      <div class="cta-box">
+        <h2>Хватит читать.<br>Пора смотреть.</h2>
+        <p>Весь каталог уже внутри — 1240 роликов и ни одной пустой обложки. Вход одним кликом и одним твёрдым решением.</p>
+        <a class="btn btn-white" href="#top">Войти в каталог</a>
+        <span class="cta-note">Только для взрослых · 18+</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <a class="logo" href="#top">ЖЁСТКИЙ<span>.</span></a>
+        <p>Жёстко. Грубо. По правилам, которые согласованы заранее.</p>
+      </div>
+      <span class="age-mark">18+</span>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 ЖЁСТКИЙ. Все сцены и персонажи — художественный вымысел для взрослой аудитории.</span>
+      <span>Материалы запрещены к просмотру лицам младше 18 лет.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="videoModal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-label="Просмотр видео">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Закрыть">&#10005;</button>
+    <div class="modal-player" id="modalPlayer"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var gate = document.getElementById('gate');
+  var box = document.getElementById('gateBox');
+  var yes = document.getElementById('btnYes');
+  var no = document.getElementById('btnNo');
+  var confirmed = false;
+  try { confirmed = localStorage.getItem('zhestkiy_age') === '1'; } catch(e) {}
+
+  if (confirmed) {
+    gate.remove();
+    document.body.classList.remove('no-scroll');
+  } else {
+    yes.addEventListener('click', function(){
+      try { localStorage.setItem('zhestkiy_age', '1'); } catch(e) {}
+      gate.classList.add('hidden');
+      document.body.classList.remove('no-scroll');
+    });
+    no.addEventListener('click', function(){
+      box.innerHTML = '<div class="age">18+</div><h2>Не сегодня</h2>' +
+        '<p>Этот сайт доступен только совершеннолетним. Закрой вкладку и возвращайся, когда подрастёшь.</p>';
+    });
+  }
+
+  var header = document.getElementById('header');
+  var burger = document.getElementById('burger');
+  burger.addEventListener('click', function(){
+    var open = header.classList.toggle('nav-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.querySelectorAll('.nav a').forEach(function(a){
+    a.addEventListener('click', function(){
+      header.classList.remove('nav-open');
+      burger.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  var VIDEOS = {
+    v1: 'videos/1.mp4',
+    v2: 'videos/2.mp4',
+    v3: 'videos/3.mp4',
+    v4: 'videos/4.mp4'
+  };
+
+  var modal = document.getElementById('videoModal');
+  var player = document.getElementById('modalPlayer');
+  var closeBtn = document.getElementById('modalClose');
+
+  function openVideo(key, title){
+    var src = VIDEOS[key] || '';
+    player.innerHTML = '';
+    if (!src) {
+      player.innerHTML = '<div class="modal-hint"><div><b>' + title + '</b><br>Видео не подключено.<br>Впиши путь к файлу или embed-ссылку в объект VIDEOS внизу index.html.</div></div>';
+    } else if (/^https?:/i.test(src)) {
+      var f = document.createElement('iframe');
+      f.src = src;
+      f.allow = 'autoplay; fullscreen; picture-in-picture';
+      f.setAttribute('allowfullscreen', '');
+      player.appendChild(f);
+    } else {
+      var v = document.createElement('video');
+      v.src = src;
+      v.controls = true;
+      v.autoplay = true;
+      v.playsInline = true;
+      v.addEventListener('error', function(){
+        player.innerHTML = '<div class="modal-hint"><div><b>' + title + '</b><br>Файл не найден: ' + src + '<br>Положи видео в папку videos с этим именем — или впиши другой путь в VIDEOS внизу index.html.</div></div>';
+      });
+      player.appendChild(v);
+    }
+    modal.hidden = false;
+    document.body.classList.add('no-scroll');
+  }
+  function closeVideo(){
+    modal.hidden = true;
+    player.innerHTML = '';
+    document.body.classList.remove('no-scroll');
+  }
+  document.querySelectorAll('.thumb[data-key]').forEach(function(t){
+    t.addEventListener('click', function(){
+      openVideo(t.getAttribute('data-key'), t.getAttribute('data-title') || '');
+    });
+    t.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        openVideo(t.getAttribute('data-key'), t.getAttribute('data-title') || '');
+      }
+    });
+  });
+  closeBtn.addEventListener('click', closeVideo);
+  document.querySelector('.modal-backdrop').addEventListener('click', closeVideo);
+  document.addEventListener('keydown', function(e){
+    if ((e.key === 'Escape' || e.key === 'Esc' || e.keyCode === 27) && !modal.hidden) closeVideo();
+  });
+})();
+</script>
+
+</body>
+</html>
